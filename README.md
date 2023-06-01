@@ -48,80 +48,80 @@ Project type: **client's project**
 
 # Details
 
-Then bot extract the products from the [page,](http://www.economia-sniim.gob.mx/nuevo/Home.aspx?opcion=Consultas/MercadosNacionales/PreciosDeMercado/Agricolas/ConsultaFrutasYHortalizas.aspx?SubOpcion=4%7C0), create a report in excel and send it by email.\r
-\r
+Then bot extract the products from the [page,](http://www.economia-sniim.gob.mx/nuevo/Home.aspx?opcion=Consultas/MercadosNacionales/PreciosDeMercado/Agricolas/ConsultaFrutasYHortalizas.aspx?SubOpcion=4%7C0), create a report in excel and send it by email.
+
 The bot have the options for run in CLI or with GUI
 
 # Install
 
-## Tird party modules\r
-\r
-Install the python modules with the commad:\r
-\r
-\\`\\`\\` bash\r
-$ python -m pip install -r requirements.txt\r
-\\`\\`\\`\r
-\r
-## Programs\r
-\r
-You shoud have follow the following programs:\r
-\r
-* [Google Chrome](https://www.google.com/intl/es/chrome) última versión
+## Tird party modules
+
+Install the python modules with the commad:
+
+``` bash
+$ python -m pip install -r requirements.txt
+```
+
+## Programs
+
+You shoud have follow the following programs:
+
+* [Google Chrome](https://www.google.com/intl/es/chrome) Ãºltima versiÃ³n
 
 # Settings
 
-## Config GUI\r
-\r
-The configuration screen is as follows:\r
-\r
-![Config screen](https://i.imgur.com/X4SN2SB.png)\r
-\r
-### EMAIL\r
-\r
-In this section, the email address from which the emails will be sent and the email address that will receive them are set.\r
-\r
-NOTE: The program supports emails from: gmail.com, outlook.com, hotmail.com, live.com, yahoo.com, and aol.com, but some of these email services require special configuration.\r
-\r
-If you want to change the email address from which emails are sent, please contact me.\r
-\r
-### TARGET MARKET\r
-\r
-List of target markets to obtain data from.\r
-\r
-NOTE: Each market must be written exactly as shown on the page: capitalization, quotation marks, punctuation, etc.\r
-\r
-### PRODUCTS\r
-\r
-List of products to extract, with their respective quality (optional).\r
-\r
-NOTE: They must be the same names shown on the page, but capitalization does not matter.\r
-\r
-## config.json\r
-\r
+## Config GUI
+
+The configuration screen is as follows:
+
+![Config screen](https://i.imgur.com/X4SN2SB.png)
+
+### EMAIL
+
+In this section, the email address from which the emails will be sent and the email address that will receive them are set.
+
+NOTE: The program supports emails from: gmail.com, outlook.com, hotmail.com, live.com, yahoo.com, and aol.com, but some of these email services require special configuration.
+
+If you want to change the email address from which emails are sent, please contact me.
+
+### TARGET MARKET
+
+List of target markets to obtain data from.
+
+NOTE: Each market must be written exactly as shown on the page: capitalization, quotation marks, punctuation, etc.
+
+### PRODUCTS
+
+List of products to extract, with their respective quality (optional).
+
+NOTE: They must be the same names shown on the page, but capitalization does not matter.
+
+## config.json
+
 All configurations are saved in the config.json file, so it can be manually edited.
 
 # Run
 
-## GUI\r
-\r
-For **run** the program with **graphic user interface**, **run** with yout **python 3.9** interpreter, the file **__ main__.py**.\r
-\r
-The GUI allow you to use the program and update the settings\r
-\r
-![Home](https://i.imgur.com/MxUmYe7.png)\r
-\r
-## Terminal\r
-\r
-For  **run** the program **in terminal** / without gui, **run** the file **sniim_run.py** with your **python 3.9** interpreter.\r
-\r
+## GUI
+
+For **run** the program with **graphic user interface**, **run** with yout **python 3.9** interpreter, the file **__ main__.py**.
+
+The GUI allow you to use the program and update the settings
+
+![Home](https://i.imgur.com/MxUmYe7.png)
+
+## Terminal
+
+For  **run** the program **in terminal** / without gui, **run** the file **sniim_run.py** with your **python 3.9** interpreter.
+
 Running the program in this way **will not allow updating configurations** and it will run with the **last configuration set** (more details in the configuration section).
 
 # Roadmap
 
-* [X] Extract info\r
-* [X] Save data in excel\r
-* [X] Submit email\r
-* [X] CLI\r
+* [X] Extract info
+* [X] Save data in excel
+* [X] Submit email
+* [X] CLI
 * [X] GUI
 
 
